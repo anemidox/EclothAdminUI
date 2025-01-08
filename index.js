@@ -47,7 +47,7 @@ var module = {
     } else if (currentPath === 'data') {
       module.renderSpecificItem('<my-data></-data>', 'dataRender');
     } else {
-      module.renderSpecificItem('<p>Page not found</p>', 'homeRender'); // Simple 404 handling
+      module.renderSpecificItem('<p>Page not found</p>', 'homeRender'); // Simple 404 handling //
     }
   }
 };
